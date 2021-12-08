@@ -18,6 +18,14 @@ public class Geslacht {
 
         Bonus: Lukt het je om de code zo te maken dat hoofdletters genegeerd worden?
          */
+        geslacht.toLowerCase();
+        if (geslacht.equals("man")) {
+            System.out.println("Dag meneer");
+        } else if (geslacht.equals("vrouw")) {
+            System.out.println("Dag mevrouw");
+        } else {
+            System.out.println("Dag persoon");
+        }
 
     }
 

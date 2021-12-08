@@ -18,5 +18,13 @@ public class Leeftijdscontrole {
 
         Maak de beslissingsstructuur (if/else if/else) hieronder.
          */
+
+        if(givenAge < 18){
+            System.out.println("Jij mag geen alcohol kopen");
+        } else if(givenAge > 25){
+            System.out.println("Jij mag zonder restricties alcohol kopen");
+        } else{
+            System.out.println("Jij mag alchol kopen maar je moet je ID laten zien.");
+        }
     }
 }
